@@ -82,10 +82,11 @@
         padding: 0px 5px 0px 10px;
     }
     #block-contact {
-       box-shadow: 5px 5px 5px #888888;
+        box-shadow: 5px 5px 5px #888888;
         color: white;
         background-color: #264D9B;
-        padding: 0px 5px 0px 10px;
+        margin: auto;
+        padding: 0px 5px 0px 30px;
     }
 }
 @media (min-width: 1000px) {
