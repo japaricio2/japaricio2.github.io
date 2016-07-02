@@ -51,6 +51,9 @@
         height: 150px;
         color: black;
     }
+    #input-email{
+      color: black;
+    }
     .link-logo {
         margin: auto;
         padding-left: 20px;
