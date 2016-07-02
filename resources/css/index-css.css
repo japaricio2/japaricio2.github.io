@@ -49,6 +49,7 @@
     textarea {
         width: 320px;
         height: 150px;
+        color: black;
     }
     .link-logo {
         margin: auto;
