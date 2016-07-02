@@ -1,88 +1,180 @@
-.center-block() {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@media (min-width: 768px) {}
+@media (min-width:320px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        background-color: #BDBDBD;
+    }
+    .holder {
+        height: 2000px;
+        min-width: 320px;
+    }
+    #headshot {
+        height: 380px;
+        width: 320px;
+    }
+    .center-block() {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main-heading {
+        margin: auto;
+        padding: 20% 5% 5% 5%;
+        text-align: center;
+    }
+    #headshot {
+        border-radius: 50%;
+        width: 255px;
+        height: 310px;
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .flash {
+        display: block;
+        margin: auto;
+        padding: 20px 0px 5px 0px;
+    }
+    #contact-heading {
+        margin: auto;
+        padding: 30px 0px 20px 0px;
+        text-align: left;
+    }
+    #form {
+        width: 320px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    textarea {
+        width: 320px;
+        height: 150px;
+    }
+    .link-logo {
+        margin: auto;
+        padding-left: 20px;
+        border: 0;
+    }
+    #bottom {
+        background-color: white;
+        height: 30px;
+        color: black;
+        padding: 3%;
+        text-align: center;
+    }
+    #footer {
+        padding-top: 2%;
+        color: white;
+        background-color: grey;
+        height: 160px;
+        text-align: center;
+    }
+
+    #block-intro {
+        color: white;
+        background-color: #264D9B;
+        box-shadow: 5px 5px 5px #888888;
+        padding: 0px 5px 0px 10px;
+    }
+    #block-portfolio {
+      box-shadow: 5px 5px 5px #888888;
+        background-color: #4F63AB;
+        padding: 0px 5px 0px 10px;
+    }
+    #block-contact {
+       box-shadow: 5px 5px 5px #888888;
+        color: white;
+        background-color: #264D9B;
+        padding: 0px 5px 0px 10px;
+    }
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-.holder {
-    height: 2000px;
-    max-width: 950px;
-}
-#contact-heading {
-    margin: auto;
-    padding-top: 5%;
-    text-align: center;
-}
-#form {
-    width: 325px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-#contact-p {
-    width: 350px;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-#main-heading {
-    text-align: center;
-    padding-bottom: 4%;
-    padding-top: 8%;
-}
-#back-drop {
-    background-color: #DFE9FB;
-}
-#block-intro {
-    color: white;
-    background-color: #264D9B;
-    height: 32%;
-}
-#tony {
-    border-radius: 50%;
-    width: 255px;
-    height: 300px;
-    display: block;
-    margin: 30px 20px 30px 100px;
-}
-#intro-p {
-    padding-left: 5%;
-    margin: 20px -30px 30px 40px;
-}
-#block-portfolio {
-    background-color: #4F63AB;
-    height: 50%;
-}
-#block-contact {
-    color: white;
-    height: 35%;
-    background-color: #264D9B;
-}
-.link-logo {
-    margin: auto;
-    padding-left: 20px;
-    border: 0;
-}
-#bottom {
-    background-color: white;
-    height: 80px;
-    color: black;
-    padding: 3%;
-    text-align: center;
-}
-#footer {
-    padding-top: 2%;
-    color: white;
-    background-color: grey;
-    height: 160px;
-    text-align: center;
-}
-#nav-list {
-    padding: 10px 10px 10px 10px;
-}
-.flash{
-    padding: 150px 0px 80px 0px;
-    display: block;
-    margin: auto;
+@media (min-width: 1000px) {
+    .center-block() {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    .holder {
+        height: 2000px;
+        max-width: 924px;
+    }
+    #contact-heading {
+        margin: auto;
+        padding-top: 5%;
+        text-align: center;
+    }
+    #form {
+        width: 325px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    #contact-p {
+        width: 350px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    #main-heading {
+        text-align: center;
+        padding-bottom: 4%;
+        padding-top: 8%;
+    }
+    #back-drop {
+        background-color: #DFE9FB;
+    }
+    #block-intro {
+        color: white;
+        background-color: #264D9B;
+        height: 32%;
+    }
+    #headshot {
+        border-radius: 50%;
+        width: 255px;
+        height: 300px;
+        display: block;
+        margin: 30px 20px 30px 100px;
+    }
+    #intro-p {
+        padding-left: 5%;
+        margin: 20px -30px 30px 40px;
+    }
+    #block-portfolio {
+        background-color: #4F63AB;
+        height: 50%;
+    }
+    #block-contact {
+        color: white;
+        height: 35%;
+        background-color: #264D9B;
+    }
+    .link-logo {
+        margin: auto;
+        padding-left: 20px;
+        border: 0;
+    }
+    #bottom {
+        background-color: white;
+        height: 80px;
+        color: black;
+        padding: 3%;
+        text-align: center;
+    }
+    #footer {
+        padding-top: 2%;
+        color: white;
+        background-color: grey;
+        height: 160px;
+        text-align: center;
+    }
+    #nav-list {
+        padding: 10px 10px 10px 10px;
+    }
+    .flash {
+        padding: 150px 0px 80px 0px;
+        display: block;
+        margin: auto;
+    }
 }
