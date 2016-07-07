@@ -92,6 +92,9 @@
         margin: auto;
         padding: 10px 10px 10px 10px;
     }
+    .fa-3x {
+        color: white;
+    }
 }
 @media (min-width: 1000px) {
     .center-block() {
@@ -167,8 +170,8 @@
         padding: 3%;
         text-align: center;
     }
-    .fa-3x{
-      color: white;
+    .fa-3x {
+        color: white;
     }
     #footer {
         padding-top: 2%;
