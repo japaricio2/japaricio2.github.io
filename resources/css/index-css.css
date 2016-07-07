@@ -167,9 +167,11 @@
         padding: 3%;
         text-align: center;
     }
+    .fa-3x{
+      color: white;
+    }
     #footer {
         padding-top: 2%;
-        color: white;
         background-color: grey;
         height: 160px;
         text-align: center;
