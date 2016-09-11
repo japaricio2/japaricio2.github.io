@@ -2,53 +2,57 @@
     body {
         font-family: 'Open Sans', sans-serif;
         font-size: 12px;
-        background-color: #BDBDBD;
+        background-color: #DFE9FB;
     }
     .holder {
         height: 2000px;
         min-width: 320px;
-    }
-    #headshot {
-        height: 380px;
-        width: 320px;
     }
     .center-block() {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    #main-heading {
-        margin: auto;
-        padding: 20% 5% 5% 5%;
-        text-align: center;
-    }
     #headshot {
-        border-radius: 50%;
-        width: 255px;
-        height: 310px;
+        width: 180px;
+        height: 180px;
         display: block;
         margin: auto;
-        padding-top: 20px;
+        padding: 0px 0px 20px 0px;
     }
     .flash {
         display: block;
         margin: auto;
-        padding: 20px 0px 5px 0px;
+        padding: 20px 0px 10px 0px;
     }
-    #contact-heading {
+    .div-heading {
         margin: auto;
-        padding: 30px 0px 20px 0px;
         text-align: left;
     }
+    #intro-title {
+        display: block;
+        margin: auto;
+        padding: 60px 0px 20px 0px;
+        text-align: left;
+    }
+    #portfolio-title {
+        display: block;
+        margin: auto;
+        padding-top: 16px;
+        text-align: left;
+        color: white;
+    }
     #form {
-        width: 300px;
+        width: 280px;
         padding: 10px 5px 20px 20px;
         margin: auto;
+
     }
     textarea {
-        width: 300px;
-        height: 150px;
+        width: 260px;
+        height: 100px;
         color: black;
+        resize: none;
     }
     #input-email {
         color: black;
@@ -96,19 +100,25 @@
         color: white;
     }
 }
-@media (min-width: 768px) {
+
+@media (min-width: 1000px) {
     .center-block() {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        max-width: 976px;
+        width: 976px;
     }
     body {
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
+        background-color: #DFE9FB;
     }
     .holder {
         height: 2000px;
-        max-width: 924px;
+        max-width: 976px;
+        width: 976px;
+        display: block;
     }
     #contact-heading {
         margin: auto;
@@ -130,17 +140,14 @@
         padding-bottom: 4%;
         padding-top: 8%;
     }
-    #back-drop {
-        background-color: #DFE9FB;
-    }
     #block-intro {
         color: white;
         background-color: #264D9B;
         height: 32%;
     }
     #headshot {
-        border-radius: 50%;
-        width: 255px;
+        border-radius: 0%;
+        width: 300px;
         height: 300px;
         display: block;
         margin: 30px 20px 30px 100px;
@@ -163,6 +170,7 @@
         padding-left: 20px;
         border: 0;
     }
+
     #bottom {
         background-color: white;
         height: 80px;
