@@ -1,198 +1,32 @@
-@media (min-width:320px) {
-    body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
-        background-color: #DFE9FB;
-    }
-    .holder {
-        height: 2000px;
-        min-width: 320px;
-    }
-    .center-block() {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #headshot {
-        width: 180px;
-        height: 180px;
-        display: block;
-        margin: auto;
-        padding: 0px 0px 20px 0px;
-    }
-    .flash {
-        display: block;
-        margin: auto;
-        padding: 20px 0px 10px 0px;
-    }
-    .div-heading {
-        margin: auto;
-        text-align: left;
-    }
-    #intro-title {
-        display: block;
-        margin: auto;
-        padding: 60px 0px 20px 0px;
-        text-align: left;
-    }
-    #portfolio-title {
-        display: block;
-        margin: auto;
-        padding-top: 16px;
-        text-align: left;
-        color: white;
-    }
-    #form {
-        width: 280px;
-        padding: 10px 5px 20px 20px;
-        margin: auto;
-
-    }
-    textarea {
-        width: 260px;
-        height: 100px;
-        color: black;
-        resize: none;
-    }
-    #input-email {
-        color: black;
-    }
-    .link-logo {
-        margin: auto;
-        padding-left: 20px;
-        border: 0;
-    }
-    #bottom {
-        background-color: white;
-        height: 30px;
-        color: black;
-        padding: 3%;
-        text-align: center;
-        min-width: 350px;
-    }
-    #footer {
-        padding-top: 2%;
-        color: white;
-        background-color: grey;
-        height: 160px;
-        text-align: center;
-        min-width: 350px;
-    }
-    #block-intro {
-        color: white;
-        background-color: #264D9B;
-        box-shadow: 5px 5px 5px #888888;
-        padding: 0px 5px 0px 10px;
-    }
-    #block-portfolio {
-        box-shadow: 5px 5px 5px #888888;
-        background-color: #4F63AB;
-        padding: 0px 5px 0px 10px;
-    }
-    #block-contact {
-        box-shadow: 5px 5px 5px #888888;
-        color: white;
-        background-color: #264D9B;
-        margin: auto;
-        padding: 10px 10px 10px 10px;
-    }
-    .fa-3x {
-        color: white;
-    }
+#main-header{
+  background-color: #0294d8;
+  padding: 150px 0 150px 60px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
 }
-
-@media (min-width: 1000px) {
-    .center-block() {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 976px;
-        width: 976px;
-    }
-    body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        background-color: #DFE9FB;
-    }
-    .holder {
-        height: 2000px;
-        max-width: 976px;
-        width: 976px;
-        display: block;
-    }
-    #contact-heading {
-        margin: auto;
-        padding-top: 3%;
-        text-align: center;
-    }
-    #form {
-        width: 325px;
-        padding-top: 10px;
-        padding-bottom: 50px;
-    }
-    #contact-p {
-        width: 350px;
-        padding-top: 30px;
-        padding-left: 30px;
-    }
-    #main-heading {
-        text-align: center;
-        padding-bottom: 4%;
-        padding-top: 8%;
-    }
-    #block-intro {
-        color: white;
-        background-color: #264D9B;
-        height: 32%;
-    }
-    #headshot {
-        border-radius: 0%;
-        width: 300px;
-        height: 300px;
-        display: block;
-        margin: 30px 20px 30px 100px;
-    }
-    #intro-p {
-        padding-left: 5%;
-        margin: 20px -30px 30px 40px;
-    }
-    #block-portfolio {
-        background-color: #4F63AB;
-        height: 50%;
-    }
-    #block-contact {
-        color: white;
-        height: 35%;
-        background-color: #264D9B;
-    }
-    .link-logo {
-        margin: auto;
-        padding-left: 20px;
-        border: 0;
-    }
-
-    #bottom {
-        background-color: white;
-        height: 80px;
-        color: black;
-        padding: 3%;
-        text-align: center;
-    }
-    .fa-3x {
-        color: white;
-    }
-    #footer {
-        padding-top: 2%;
-        background-color: grey;
-        height: 160px;
-        text-align: center;
-    }
-    #nav-list {
-        padding: 10px 10px 10px 10px;
-    }
-    .flash {
-        padding: 150px 0px 80px 0px;
-        display: block;
-        margin: auto;
-    }
+#box{
+  border: 12px solid white;
+  padding: 20px 20px 20px 20px;
+  width: 800px;
+}
+#subtitle{
+  margin: 26px 0 20px 100px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+h1{
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+}
+a{
+  color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #52FFB6;
 }
