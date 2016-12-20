@@ -1,19 +1,23 @@
 #main-header{
   background-color: #0294d8;
-  padding: 150px 0 150px 60px;
+  padding: 180px 0 300px 80px;
+  height: 100vh;
   color: white;
   text-transform: uppercase;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
 }
 #box{
-  border: 12px solid white;
-  padding: 20px 20px 20px 20px;
-  width: 800px;
+  border: 15px solid white;
+  min-width: 450px;
+  max-width: 800px;
 }
 #subtitle{
-  margin: 26px 0 20px 100px;
   color: white;
   font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 20px;
 }
 h1{
   font-size: 60px;
