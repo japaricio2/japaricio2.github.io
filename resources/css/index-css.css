@@ -9,6 +9,8 @@
   text-align: center;
 }
 #box{
+  padding: 10px 50px 26px 0;
+  margin-right: 50px;
   border: 15px solid white;
   min-width: 450px;
   max-width: 800px;
