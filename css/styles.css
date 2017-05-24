@@ -86,15 +86,16 @@ a:hover {
 header, footer {
   background: #5ca4a9;
   color: white;
-
 }
 
 
 /* Header */
+
 header {
   padding-top: 50px;
   position: relative;
 }
+
 header h1, header h2 {
   margin: 0;
 }
@@ -109,6 +110,8 @@ header h1, header h2 {
   bottom: 0;
   right: 0;
 }
+
+
 /* Footer */
 
 footer {
@@ -128,7 +131,7 @@ footer {
   background: #e6ebe0;
 }
 
-h3 ~ p {
+h3~p {
   margin: 0;
 }
 
@@ -145,13 +148,14 @@ h3 ~ p {
 -----------------------------------*/
 
 .education {
-  background: #9bc1bc;
+  background: linear-gradient(rgba(155, 193, 188, 0.7), rgba(254,252,234,0.5)),
+              url(../images/school.jpg) no-repeat fixed;
+  background-size: cover;
 }
-
-p + h3 {
+}
+p+h3 {
   margin-top: 30px;
 }
-
 
 /* Navbar display vs float techniques
 
@@ -170,7 +174,6 @@ nav {
   width: 100%;
   top: 0;
 }
-
 nav a {
   display: inline-block;
   padding: 15px 20px;
@@ -178,6 +181,7 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 /*a {
   background: lightblue;
 }*/
