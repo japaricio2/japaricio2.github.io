@@ -8,32 +8,15 @@
 
 /* Global Styles
 -----------------------------------*/
+
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
-.content-wrap {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 50px;
-  overflow: hidden;
 
-}
-
-.col-narrow {
-  width: 30%;
-  float: left;
-  padding-right: 3%;
-  min-height: 200px;
-}
-
-.col-wide {
-  width: 70%;
-  float: left;
-  min-height: 200px;
-}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -52,12 +35,48 @@ h2 {
   margin-top: 0px;
 }
 
+h3 {
+  margin: 0;
+}
+
 a {
   color: #2a1e5c;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  padding: 60px 50px;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 150px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ed6a5a;
+  color: white;
+  padding: 10px;
+  display: inline-block;
 }
 
 
@@ -67,28 +86,38 @@ a:hover {
 header, footer {
   background: #5ca4a9;
   color: white;
+
 }
 
+
 /* Header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
 header h1, header h2 {
   margin: 0;
 }
+
 .profile-img {
   margin-top: 20px;
   border-radius: 50%;
 }
 
-header {
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-
 /* Footer */
+
 footer {
   text-align: center;
 }
-.contact-info a{
+
+.contact-info a {
   padding: 10px;
   display: inline-block;
-
 }
 
 
@@ -99,6 +128,18 @@ footer {
   background: #e6ebe0;
 }
 
+h3 ~ p {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
 
 /* Education
 -----------------------------------*/
@@ -106,3 +147,61 @@ footer {
 .education {
   background: #9bc1bc;
 }
+
+p + h3 {
+  margin-top: 30px;
+}
+
+
+/* Navbar display vs float techniques
+
+/* General styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+nav {
+  margin-bottom: 5px;
+  background-color: #e6ebe0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*a {
+  background: lightblue;
+}*/
+
+/* Navigation using 'display'
+-----------------------------
+.display {
+  text-align: center;
+  font-size: 0;
+}
+.display a {
+  padding: 10px;
+  display: inline-block;
+  width: 25%;
+  font-size: 16px;
+}
+
+**Navigation using 'float'
+---------------------------
+.float {
+  overflow: hidden;
+}
+.float a {
+  float: left;
+  padding: 10px;
+  width: 25%;
+}*/
