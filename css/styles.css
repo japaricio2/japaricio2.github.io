@@ -1,0 +1,108 @@
+/* Color Palette
+#5ca4a9 - cadet blue
+#9bc1bc - cambridge blue
+#e6ebe0 - platinum
+#ed6a5a - red
+*/
+
+
+/* Global Styles
+-----------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 200px;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  min-height: 200px;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display SC', serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+a {
+  color: #2a1e5c;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* Header and Footer
+-----------------------------------*/
+
+header, footer {
+  background: #5ca4a9;
+  color: white;
+}
+
+/* Header */
+header h1, header h2 {
+  margin: 0;
+}
+.profile-img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+header {
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+.contact-info a{
+  padding: 10px;
+  display: inline-block;
+
+}
+
+
+/* Work Experience
+-----------------------------------*/
+
+.work {
+  background: #e6ebe0;
+}
+
+
+/* Education
+-----------------------------------*/
+
+.education {
+  background: #9bc1bc;
+}
