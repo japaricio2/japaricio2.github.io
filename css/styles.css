@@ -149,7 +149,7 @@ h3~p {
 
 .education {
   background: linear-gradient(rgba(155, 193, 188, 0.7), rgba(254,252,234,0.5)),
-              url(../images/school-webv.jpg) no-repeat fixed;
+              url(../images/school-webv) no-repeat fixed;
   background-size: cover;
 }
 }
