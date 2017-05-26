@@ -55,17 +55,7 @@ a:hover {
   padding: 60px 50px;
 }
 
-.col-narrow {
-  width: 30%;
-  float: left;
-}
 
-.col-wide {
-  width: 70%;
-  float: left;
-  padding-left: 20px;
-  min-height: 150px;
-}
 
 .uppercase {
   text-transform: uppercase;
@@ -209,3 +199,29 @@ nav a {
   padding: 10px;
   width: 25%;
 }*/
+
+/*Media Queries
+-----------------------*/
+
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 150px;
+  }
+}
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
