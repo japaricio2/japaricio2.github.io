@@ -85,8 +85,8 @@
   function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
     FB.api('/me', function(response) {
-      document.getElementById('first_name').innerHTML = response.name;
-      document.getElementById('last_name').innerHTML = response.name;
+      document.getElementById('first_name').innerHTML = response.name.substring(0, response.name.indexOf(" ");
+      document.getElementById('last_name').innerHTML = response.name.substring(response.name.indexOf(" "), response.name.length - 1);
       console.log(response);
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
@@ -104,7 +104,10 @@
 <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
 <div id = "container">
+  <h3>First Name</h3>
   <p id="first_name"></p>
+  <hr>
+  <h3>Last Name</h3>
   <p id="last_name"></p>
 </div> 
 
